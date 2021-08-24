@@ -11,7 +11,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '888888',
+      password: 'yangkai',
       database: 'test',
       entities: ['dist/modules/**/*.entity{.ts,.js}'],
       synchronize: true, //设置synchronize可确保每次运行应用程序时实体都将与数据库同步。
