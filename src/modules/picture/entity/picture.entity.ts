@@ -4,8 +4,10 @@ import {
   UpdateDateColumn,
   CreateDateColumn,
   VersionColumn,
+  Entity,
 } from 'typeorm';
 
+@Entity()
 export class Picture {
   // 主键id
   @PrimaryGeneratedColumn()
